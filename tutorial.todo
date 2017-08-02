@@ -57,3 +57,5 @@ Describe:
  ☐ in the terminal type **p** and the name of the file that I want to Test **Grid** and if I want to tests all my files **a** to go back.
  ☐ Coverage add **"coverage": "react-scripts test --env=jsdom --coverage",** in package.json. 
  ☐ run **npm run coverage**
+
+ 
