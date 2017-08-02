@@ -40,3 +40,20 @@ Testing with jest:
  ☐ how test work in yarn test
  ☐ First line is the number of Test files
  ☐ The second line is the total number of test contains in the test files
+ ☐ I need to read the Doc for JEst
+ ☐ https://facebook.github.io/jest/docs/en/using-matchers.html#content
+
+Snapshot:
+ ☐ A Snapshot is a copy of the components that react do. (it;s like versionning with Git)
+ ☐ Add snapchot : yarn add react-test-renderer
+ ☐ add this into the main file **import renderer from 'react-test-renderer';**
+ ☐ Create a test. see screenshot
+ ☐ run test
+ ☐ change something in the Component
+ ☐ type "u" in the shell to update the snapshot
+
+Describe:
+ ☐ I can add a **describe** to categorize my tests
+ ☐ in the terminal type **p** and the name of the file that I want to Test **Grid** and if I want to tests all my files **a** to go back.
+ ☐ Coverage add **"coverage": "react-scripts test --env=jsdom --coverage",** in package.json. 
+ ☐ run **npm run coverage**
