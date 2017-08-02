@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 
 const Single = ({item}) => {
   return (
@@ -28,8 +28,6 @@ const Single = ({item}) => {
   );
 };
 
-Single.propTypes = {
-  item: PropTypes.object.isRequired
-};
+
 
 export default Single;

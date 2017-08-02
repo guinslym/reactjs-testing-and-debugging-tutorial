@@ -1,0 +1,42 @@
+Tools:
+ ☐ My browser is the first tool to have (obviously) 
+ ☐ browser ==== dev tools (ctrl + i)
+ ☐ https://github.com/facebook/react-devtools
+ ☐ Download the chrome extension
+ ☐ Will show in ctrl+i (browser) a React tab
+
+Running test:
+ ☐ yarn test
+ ☐ npm run test
+
+Type checking:
+ ☐ yarn  add flow-bin -D
+ ☐ add to package.json-scripts "flow": "flow"
+ ☐ yarn flow init
+   ☐ This will create a file .flowconfig
+ ☐ // @flow 
+   ☐ Add on the top in each .jsx file that I want to type check with flow
+ ☐ yarn flow
+ ☐ to run flow in my shell
+
+Linter:
+ ☐ yarn add eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+ ☐ create file .eslintrc.json
+{
+    "extends": "airbnb",
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ]
+}
+
+Testing with jest:
+ ☐ yarn add --dev jest
+ ☐ Create a App.test.js
+ ☐ see screenshot
+ ☐ yarn test (npm run test)
+ ☐ see documentation of Jest for testing Number, Object, String
+ ☐ how test work in yarn test
+ ☐ First line is the number of Test files
+ ☐ The second line is the total number of test contains in the test files
